@@ -1,0 +1,80 @@
+*{
+    font-family: 'Inter', sans-serif;
+    margin: auto;
+    padding: auto;
+}
+.head{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.head .menu ul{
+    display: flex;
+}
+.head .menu ul li{
+    display: flex;
+    list-style: none;
+}
+.head .menu ul li a{
+    margin-left: 60px;
+    text-decoration: none;
+}
+.banner{
+    display: flex;
+}
+.banner .banner-desc h1{
+    font-weight: 900;
+    font-size: 40px;
+}
+.banner .banner-desc h2{
+    font-weight: 600;
+    font-size: 40px;
+    color: #F54748;
+}
+.banner .banner-desc input{
+    width: 180px;
+    height: 42px;
+    background: #FFFFFF;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
+.banner .banner-desc button{
+    width: 110px;
+    height: 42px;
+    color: #FFFFFF;
+    background-color: black;
+    border-radius: 5px;
+}
+.related-prod{
+    display: flex;
+}
+.related-prod .prods .prods-desc p{
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    color: #F54748;
+
+}
+.related-prod .prods .prods-desc button{
+    width: 400px;
+    height: 42px;
+    color: white;
+    background-color: black;
+    border-radius: 5px;
+}
+.footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer .foot-menu ul{
+    display: flex;
+}
+.footer .foot-menu ul li{
+    display: flex;
+    list-style: none;
+}
+.footer .foot-menu ul li a{
+    margin-left: 60px;
+    text-decoration: none;
+}

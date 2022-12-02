@@ -1,6 +1,7 @@
 *{
-    font-family: 'Roboto', sans-serif;
-    margin: 0 auto;
+    font-family: 'Inter', sans-serif;
+    margin: auto;
+    padding: auto;
 }
 .head{
     display: flex;
@@ -38,4 +39,59 @@
 }
 .categories .six{
     display: flex;
+}
+
+.banner .info input{
+    width: 306px;
+    height: 62px;
+    border-color: orangered;
+    border-radius: 10px;
+}
+.banner .info button{
+    width: 158px;
+    height: 62px;
+    background-color: orangered;
+    border-color: orangered;
+    border-radius: 10px;
+}
+.banner .info h1{
+    font-size: 72px;
+    font-weight: 900;
+}
+.banner .img img{
+    width: 500px;
+    height: auto;
+}
+.contact form input{
+    width: 620px;
+    height: 60px;
+}
+.contact .submit button{
+    width: fit-content;
+    background: #000000;
+    border-radius: 10px;
+    padding: 20px 63px;
+    color: white;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    display: flex;
+    justify-content:center;
+    margin-bottom:100px;
+}
+.footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer .menu-foot ul{
+    display: flex;
+}
+.footer .menu-foot ul li{
+    display: flex;
+    list-style: none;
+}
+.footer .menu-foot ul li a{
+    margin-left: 60px;
+    text-decoration: none;
 }

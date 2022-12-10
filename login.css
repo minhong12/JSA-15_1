@@ -1,0 +1,38 @@
+*{
+    font-family: 'Inter', sans-serif;
+    margin: auto;
+    padding: auto;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 16px;
+}
+.body .body-head{
+    text-align: center;
+    padding-top: 20px;
+}
+.sign-in-form{
+    text-align: center;
+}
+.sign-in-form form input{
+    width: 400px;
+    height: 50px;
+}
+.sign-in-form form #login{
+    width: 400px;
+    height: 50px;
+    border-radius: 5px;
+    border-color: aqua;
+    background-color: aqua;
+}
+.sign-in-form form #logingg{
+    width: 400px;
+    height: 50px;
+    border-radius: 5px;
+    color: white;
+    border-color: black;
+    background-color: black;
+}
+    

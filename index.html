@@ -140,16 +140,17 @@
                 </div>
             </div>
             <div class="contact">
-                <form action="">
+                <form action="" name="contact">
                     <h2>Contact us</h2>
                     <input type="text" placeholder="Enter your name">
-                    <input type="text" placeholder="Your email address"><br>
+                    <input type="text" placeholder="Your email address" name="email"><br>
+                    <p id="loiemail" style="display: none; color:red;">Email Error, Try Again</p><br>
                     <input type="text" placeholder="Enter subject">
                     <input type="text" placeholder="Enquiry type"><br>
                     <input type="text" placeholder="Enter your messages"><br>
                 </form>
                 <div class="submit">
-                    <button>Submit</button>
+                    <button type="submit" onclick="validate()">Submit</button>
                 </div>
             </div>
         </div>

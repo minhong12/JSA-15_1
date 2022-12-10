@@ -3,37 +3,37 @@ const arrListProduct = [
        img: "img/home-prod4.png",
        name: "Fresh and Healthy Mixed Mayonnaise Salad",
        price: "$30",
-       cate: "1",
+       cate: 1,
     },
     {
         img: "img/home-prod5.png",
         name: "The Creamiest Creamy Chicken",
         price: "$30",
-        cate: "2",
+        cate: 2,
      },
      {
         img: "img/home-prod6.png",
         name: "Fruity Pancake with Orange & Blueberry",
         price: "$30",
-        cate: "3",
+        cate: 3,
      },
      {
         img: "img/home-prod4.png",
         name: "Fresh and Healthy Mixed Mayonnaise Salad",
         price: "$30",
-        cate: "1",
+        cate: 1,
      },
      {
          img: "img/home-prod5.png",
          name: "The Creamiest Creamy Chicken",
          price: "$30",
-         cate: "2",
+         cate: 2,
       },
       {
          img: "img/home-prod6.png",
          name: "Fruity Pancake with Orange & Blueberry",
          price: "$30",
-         cate: "3",
+         cate: 3,
       },
 ]
 function showProduct(data){
@@ -56,8 +56,8 @@ function showProduct(data){
     }
 }
 showProduct(arrListProduct);
-
 let filter = document.querySelector("#sort");
+
 function filterProduct(data){
     let _breakfast = data.filter(function(item) {
         return item.cate == 1;
@@ -68,9 +68,9 @@ function filterProduct(data){
     let _dessert = data.filter(function(item) {
         return item.cate == 3;
     });
-    if (filter.value=="a") showProduct(_breakfast);
-    else if(filter.value == "b") showProduct(_lunch);
-    else if(filter.value == "c") showProduct(_dessert);
+    if (filter.value=="breakfast") showProduct(_breakfast);
+    else if(filter.value == "lunch") showProduct(_lunch);
+    else if(filter.value == "dessert") showProduct(_dessert);
     else showProduct(arrListProduct);
 }
 

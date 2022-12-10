@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="login.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="menu">
+                <div class="menu-img">
+                    <img src="img/Fudo..png" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="body">
+            <div class="body-head">
+                <h3>Welcome back</h3>
+                <h1>Login to your account</h1>
+            </div>
+            <div class="sign-in-form">
+                <form action="" name="login">
+                    <p>Email</p><br>
+                    <input type="text" placeholder="John.snow@gmail.com" name="email"><br>
+                    <p id="loiemail" style="display: none; color:red;">Email Error, Try Again</p><br>
+                    <p>Password</p><br>
+                    <input type="password" placeholder="*********"><br>
+                    <p id="loipass" style="display: none; color:red;" name="pass">Password Error, Try Again</p><br>
+                    <button id="login" type="submit" onclick="validate1" >Login now</button><br>
+                    <button id="logingg"><img src="img/iconfinder_Google_1298745 1.png" alt="">Or sign-in with Google</button>
+                </form>
+                <p>Don't have an account ?<a href="">Join free today !</a></p>
+            </div>
+        </div>
+    </div>
+    <script src="login.js"></script>
+</body>
+</html>
